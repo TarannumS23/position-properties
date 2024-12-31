@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: #f8b400;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+        .recipe {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            width: 300px;
+            text-align: center;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .recipe img {
+            width: 100%;
+            height: auto;
+        }
+
+        .recipe h3 {
+            margin: 0;
+            padding: 1rem;
+            background-color: #ffdd90;
+        }
+
+        .static-footer {
+            position: static;
+            background-color: #f8b400;
+            text-align: center;
+            padding: 1rem;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="home">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="recipe.html">Recipes</a>
+            <a href="Gallary.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div class="container">
+            <div class="recipe">
+                <img src="./../img/chocolate_cake.jpg" alt="Chocolate Cake">
+                <h3>Chocolate Cake</h3>
+            </div>
+            <div class="recipe">
+                <img src="./../img/vanilla.jpg" alt="Vanilla Cake">
+                <h3>Vanilla Cake</h3>
+            </div>
+            <div class="recipe">
+                <img src="./../img/redvelvet.jpg" alt="Red Velvet Cake">
+                <h3>Red Velvet Cake</h3>
+            </div>
+        </div>
+        <footer class="static-footer">Happy Face=Tasty Cakes</footer><hr>
+        <a href="recipe.html">Try our fav recipe</a>
+        
+    </div>
+    </body>

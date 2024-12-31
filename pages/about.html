@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        background-color: #f8b400;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+        padding: 2rem;
+    }
+
+    .recipe {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+        width: 300px;
+        text-align: center;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .recipe img {
+        width: 100%;
+        height: auto;
+    }
+
+    .recipe h3 {
+        margin: 0;
+        padding: 1rem;
+        background-color: #ffdd90;
+    }
+
+    .static-footer {
+        position: static;
+        background-color: #f8b400;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .fixed-header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #f8b400;
+        padding: 1rem;
+        text-align: center;
+        z-index: 1000;
+    }
+
+    .absolute-banner {
+        position: absolute;
+        top: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #f4a261;
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+    }
+
+    .relative-section {
+        position: relative;
+        padding: 2rem;
+        margin: 2rem;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+    }
+
+    .sticky-nav {
+        position: sticky;
+        top: 0;
+        background-color: #f8b400;
+        padding: 1rem;
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+    <div id="home">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="recipe.html">Recipes</a>
+            <a href="Gallary.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        </div>
+  <div id="about">
+    <div class="fixed-header">About Us</div>
+    <div class="container" style="margin-top: 3rem;">
+        <p>Welcome to our cake website! We share the best recipes for all cake enthusiasts. <br>
+            Welcome to  the ultimate destination for cake enthusiasts! 
+            Whether you are a home baker, a professional pastry chef, or someone who simply 
+            loves indulging in sweet treats, we have got something special for you. Explore a 
+            treasure trove of delectable cake recipes, from classic chocolate and vanilla to 
+            exotic fruit-infused and themed creations. Our step-by-step guides, vibrant photo 
+            galleries, and expert baking tips make it easy to create cakes that look as amazing
+             as they taste. Join us to celebrate the joy of baking, one slice at a time
+        </p>
+    </div>
+</div>
+</body>
+</html>

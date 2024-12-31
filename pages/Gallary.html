@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+
+   body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+
+  nav {
+    background-color: #f8b400;
+    padding: 12px;
+    display: flex;
+    justify-content: space-around;
+    }
+
+  nav a {
+   color: white;
+    text-decoration: none;
+    font-weight: bold;
+   }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .recipe {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+  .recipe img {
+    width: 100%;
+    height: 250px;
+  }
+
+  .recipe h3 {
+    margin: 0;
+    padding: 14px;
+    background-color: #ffdd90;
+  }
+  .relative-section {
+    position: relative;
+    padding: 20px;
+    margin: 20px;
+    border: 12px solid #ddd;
+    border-radius: 8px;
+  }
+</style>
+</head>
+<body>
+  <div id="home">
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="recipe.html">Recipes</a>
+        <a href="Gallary.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+  <div id="gallery">
+    <div class="relative-section">
+        <h2>Gallery</h2>
+        <div class="container">
+            <div class="recipe">
+                <img src="./../img/cupcakes.jpg" alt="Cupcakes">
+                <h3>Cupcakes</h3>
+            </div>
+            <div class="recipe">
+                <img src="./../img/vanilla2.jpg" alt="Birthday Cake">
+                <h3>Birthday Cake</h3>
+            </div>
+            <div class="recipe">
+              <img src="./../img/anniversary.jpg" alt="Anniversary Cake">
+              <h3>Anniversary Cake</h3>
+          </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
